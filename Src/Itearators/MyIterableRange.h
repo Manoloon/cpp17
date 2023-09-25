@@ -12,7 +12,7 @@ class num_iterator{
 public:
     explicit num_iterator(int position =0):i{position}{}
 
-    int operator *(){return i;}
+    int operator *() const {return i;}
     num_iterator& operator ++(){
         ++i;
         return *this;

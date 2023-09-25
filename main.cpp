@@ -3,8 +3,6 @@
 #include <algorithm>
 #include <string>
 
-#include <map>
-#include <iomanip>
 #include "Src/Itearators/MyIterableRange.h"
 #include "Src/Itearators//Fibonacci.h"
 
