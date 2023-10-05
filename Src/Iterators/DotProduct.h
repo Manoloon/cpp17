@@ -7,6 +7,13 @@
 #include <numeric>
 #include "ZipIterator.h"
 
+/*
+    std::vector<double> a {1.0,2.0,3.0};
+    std::vector<double> b {4.0,5.0,6.0};
+    Zipper zipped(a,b);
+    std::cout << DotProduct(zipped);
+ */
+
 const auto AddProduct([](double sum, const auto& product){
     return sum + product.first * product.second;
 });
