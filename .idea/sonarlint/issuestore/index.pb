@@ -1,0 +1,39 @@
+
+R
+"Src/Containers/VectorQuickRemove.h,7\e\7e083e8f5cb309767e6ca93698edc63571b0e63e
+T
+$Src/Containers/FilteringDuplicates.h,5\e\5edadc03800810f7810e8e2a0f1a01221f3cb6d0
+I
+Src/Containers/TodoList.h,6\d\6d15146029734b6520c6fd79c1f4f185c684231c
+O
+Src/Iterators/CstringSentinel.h,1\d\1dcd92bc1ac492c035ddbfd9bc6e8e1865e52bf7
+I
+Src/Iterators/Fibonacci.h,2\1\21484010ba8eaeb787f01b2a6aa1e10d8c4f966a
+K
+Src/Iterators/ZipIterator.h,b\e\be68237c51b1aeab9fb9990efb6b54c2b679d646
+H
+Src/Lambda/basicLambda.h,3\1\31fd753aa9166467250be32d079577e30ee9ebb3
+J
+Src/Iterators/DotProduct.h,f\9\f9c7d5d2026810392a4b7b7e199eda1250834021
+O
+Src/Iterators/MyIterableRange.h,5\e\5eeb77f6a1533d3290f28d304472c2e1f01a71f9
+I
+Src/Lambda/SimpleConcat.h,9\8\9867b25e446bfe7e637bcc754cdec1f5cde9c628
+K
+Src/Containers/CountWords.h,6\0\60cb48efe1a7941cedc45e9319d455fa902be352
+J
+Src/Lambda/Concatenation.h,e\8\e8e774be1b003736c164e60e26bea52e6e37356b
+E
+Src/Lambda/consumer.h,0\7\07ce99096350bc44c213b993899428a5005211d6
+O
+Src/Lambda/MulticallSameInput.h,0\7\07f7ed9bafb9053ed7a960d9439c460387cef30f
+Q
+!Src/Lambda/PredicatesConjuntion.h,4\b\4b177cf62ac0dddd791f7d5d988075399de3abc8
+I
+Src/Lambda/transform_if.h,f\7\f71efe9fa1936a7800f172add89282bfddfa58ec
+M
+Src/Lambda/CartesianProduct.h,a\b\abc312118fd12187ce174f7ee166d1df3f1a14d3
+L
+Src/STL_Algorithms/Sorting.h,e\2\e2262ba6028440e82c4c80bb205866ace1289139
+I
+Src/STL_Algorithms/Copy.h,0\c\0ca14b71a6171c7330ae85f892f065e3728b7363

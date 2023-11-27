@@ -1,16 +1,11 @@
 #include <iostream>
-#include <vector>
-#include <algorithm>
-#include <string>
-#include "Src/Lambda/Concatenation.h"
-#include "Src/Lambda/SimpleConcat.h"
-#include "Src/Lambda/consumer.h"
+#include "Src/STL_Algorithms/Copy.h"
+#include "Src/STL_Algorithms/Sorting.h"
 
 int main()
 {
-    Consumer::FeedConsumers(10);
+    UseCopy();
 
-    std::cout << combined(2,3) << std::endl;
-    std::cout << SimpleCombined(2,3) << std::endl;
-        return 0;
+    CreateAndSortVector({2,46,6,1,120,3,10});
+    return 0;
 }
