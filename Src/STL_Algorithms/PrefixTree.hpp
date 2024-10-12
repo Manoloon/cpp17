@@ -78,7 +78,6 @@ private :
 
 namespace PrefixTree
 {
-    // Easy call for Demo
     void Demo()
     {
         Trie<std::string> trie;

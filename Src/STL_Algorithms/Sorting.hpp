@@ -1,8 +1,7 @@
-//
-// Created by Manoloon on 27/11/2023.
-//
-#ifndef CPP17_SORTING_H
-#define CPP17_SORTING_H
+#pragma once
+/*
+    Sorting a vector 
+*/
 #include <vector>
 #include <algorithm>
 #include <iostream>
@@ -51,6 +50,4 @@ void CreateAndSortVector(std::vector<int> v){
         std::cout << "{" << x << ", " << y << "}" ;
     }
     std::cout << std::endl;
-
 }
-#endif //CPP17_SORTING_H
