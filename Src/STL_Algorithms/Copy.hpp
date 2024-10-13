@@ -11,11 +11,13 @@
 #include <algorithm>
 #include <iterator>
 
-std::ostream& operator<<(std::ostream &os, const std::pair<int, std::string> &p)
+namespace std
 {
-    return os << "(" << p.first << ", " << p.second << ")";
+        std::ostream& operator<<(std::ostream &os, const std::pair<int, std::string> &p)
+        {
+        return os << "(" << p.first << ", " << p.second << ")";
+        }
 }
-
 void UseCopy()
 {
     std::vector<std::pair<int, std::string>> v
@@ -31,12 +33,10 @@ void UseCopy()
 
     std::copy_n(std::begin(v), 3, std::inserter(m, std::begin(m)));
     std::cout << "Map after copy_n of first 3 elements\n";   
-    auto shell_it(std::ostream_iterator<std::pair<int, std::string>>
-                          {
-                                  std::cout << ", "
-                          });
+    auto shell_it = std::ostream_iterator<std::pair<int, std::string>>(std::cout, ", ");
     m.clear();
     std::move(std::begin(v),std::end(v),std::inserter(m,std::begin(m)));
     std::copy(std::begin(m), std::end(m), shell_it);
+    
     std::cout << '\n';
 }
